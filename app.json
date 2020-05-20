@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template (TypeScript)",
+    "name": "Todo App - Adam Procyk",
     "slug": "todoapp",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -11,11 +11,11 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/logomin.png",
+    "icon": "./src/assets/logofrog.png",
     "splash": {
-      "image": "./src/assets/logo.png",
+      "image": "./src/assets/logofrog.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1f1f1f"
+      "backgroundColor": "#0351C1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

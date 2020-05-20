@@ -49,9 +49,9 @@ const Welcome: FC<IWelcomeProps> = props => {
                 dolorum voluptate expedita aperiam excepturi. Deleniti!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Placeat commodi dolor vel qui,
-                
                 ab voluptate unde quasi nam modi at nulla veritatis voluptatum tenetur rerum?
-                Repellat omnis magnam accusamus ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id sapiente est, praesentium omnis doloribus sequi veniam quo esse.
+                Repellat omnis magnam accusamus ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Id sapiente est, praesentium omnis doloribus sequi veniam quo esse.
                 Inventore ipsam error quis dolores exercitationem eveniet amet odio eligendi? Non, magnam.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Possimus mollitia dicta nam expedita obcaecati facere enim eius eligendi. 
@@ -61,8 +61,7 @@ const Welcome: FC<IWelcomeProps> = props => {
                 molestiae reprehenderit assumenda placeat, soluta quaerat ipsa fuga? 
                 Possimus numquam natus praesentium tempore. 
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Eaque assumenda dolorum cum cupiditate veniam quae ad saepe reprehenderit excepturi, 
-                quasi fugit ipsa dolorem. 
+                Eaque assumenda dolorum cum cupiditate veniam quae ad saepe reprehenderit excepturi, quasi fugit ipsa dolorem. 
                 Obcaecati, laboriosam necessitatibus incidunt ad voluptatibus nihil. 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Blanditiis eius quos eaque nostrum eveniet nihil, 

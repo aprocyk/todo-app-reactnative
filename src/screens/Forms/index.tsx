@@ -1,26 +1,22 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import { Text, View, Image, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 
 import Colors from '../../constans/Colors';
 
-const WelcomeText = styled.Text`
-    color: ${Colors.black};
-    font-size: 20px;
-    margin: 120px 20px;
+import Form from '../../components/Form';
+import TodoList from '../../components/TodoList';
 
-`;
-
-interface IFormsProps{
-    
-}
 const Forms = ({navigation}) => {
+    const [formView, setFormView] = useState<boolean>(false);
     return(
         <View>
-            <WelcomeText>To jest Forms</WelcomeText>
-            <Text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem quam sed ex officia quaerat perspiciatis, nemo quae 
-                voluptates debitis quas hic ipsa nisi molestiae sint eos nulla. Expedita, ipsa repellendus.
-            </Text>
+            {formView ? (
+                <Form switchView={setFormView}/>
+            ) : (
+                <TodoList switchView={setFormView}/>
+            )}
+            
         </View>
     );
 };
