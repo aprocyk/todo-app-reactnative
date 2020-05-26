@@ -14,7 +14,7 @@ const AutorContainer = styled.View`
     margin-bottom: 10px;
     border: 1px gray solid;
     
-    border-radius: 15;
+    border-radius: 15px;
     
 
     

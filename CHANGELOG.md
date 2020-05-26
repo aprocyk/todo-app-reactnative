@@ -49,3 +49,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     - Todo list and form screens.
     - Started implementing forms.
+
+## [1.4.3] - 2020-05-22
+
+### Changes
+
+    - Finished adding form elements.
+
+### Added
+
+    - Deleting form elements.
+
+## [1.5.3] - 2020-05-26
+
+### Changes
+
+    - Finished 'About' page.
