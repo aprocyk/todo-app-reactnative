@@ -1,6 +1,6 @@
 {
-  "urlRandomness": "nh-x2y",
-  "hostType": "lan",
+  "urlRandomness": "pb-r7m",
+  "hostType": "tunnel",
   "lanType": "ip",
   "dev": true,
   "minify": false,

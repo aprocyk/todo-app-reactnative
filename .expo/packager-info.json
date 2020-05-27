@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 11336,
-  "expoServerNgrokUrl": "https://nh-x2y.anonymous.todo-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.nh-x2y.anonymous.todo-app.exp.direct",
-  "ngrokPid": 15404,
+  "packagerPid": 8048,
+  "expoServerNgrokUrl": "https://pb-r7m.anonymous.todo-app.exp.direct",
+  "packagerNgrokUrl": "https://packager.pb-r7m.anonymous.todo-app.exp.direct",
+  "ngrokPid": 11648,
   "webpackServerPort": null
 }

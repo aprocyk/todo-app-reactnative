@@ -8,13 +8,13 @@ export interface ITodoListReducer {
 
 const defaultState = (): ITodoListReducer => ({
     todoList: [{
-        name: 'Pierwszy',
-        description: 'Pierwszy description',
+        name: 'Test1',
+        description: 'Test descrption',
         id: 1
     },
     {
-        name:'Drugi',
-        description: 'Drugi description',
+        name:'Test2',
+        description: 'Test description',
         id: 2
     }]
 });
@@ -30,7 +30,7 @@ export default (state = defaultState(), action: any): ITodoListReducer => {
         case actionTypes.REMOVE_ELEM: {
             return{
                 ...state,
-                todoList: state.todoList.filter(el => el.id !== action.id)
+                todoList: state.todoList.filter(element => element.id !== action.id)
             }
             
         }
